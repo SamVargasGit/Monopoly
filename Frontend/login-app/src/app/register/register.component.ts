@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common'; // para *ngIf, *ngFor, etc.
   styleUrls: ['./register.component.css'],
   imports: [CommonModule, FormsModule] // <--- importa aquí
 })
+
 export class RegisterComponent {
   usuario: string = '';
   contrasena: string = '';
